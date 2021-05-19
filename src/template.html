@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Site Title -->
+    <title>Alex Genc | Software Developer</title>
+
+    <!-- Required libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hey, I'm <span class="text-color-main">Alex</span>.
+          <br />
+         
+        </h1>
+        <h2 class="hero-subtitle class="load-hidden">Former civil engineer turned software developer.</h2>
+        <p class="hero-cta" class="load-hidden">
+          <div class="hero-cta">
+            <a href="https://github.com/alexgenc" target="_blank">
+              <i class="fa fa-github fa-inverse"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/alexgenc/" target="_blank">
+              <i class="fa fa-linkedin fa-inverse"></i>
+            </a>
+          </div>
+          
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="400px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I am a recent software engineering bootcamp graduate looking for a career change. I focus on JavaScript and Python frameworks such as React, Node and Flask. As a former Civil Engineer, I managed multi-million construction projects within and outside of the U.S. I also have an entrepreneurial background, having started multiple side businesses.
+              </p>
+              <p class="about-wrapper__info-text">
+                I'm interested in an opportunity where I can continue to expand my knowledge and hone my skills as a developer. I enjoy writing functional code, that is fast, clean, and easy to read.
+              </p>
+              
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="./assets/resume.pdf">
+                View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Jobly</h3>
+                <div>
+                  <p class="mb-4">
+                    Jobly is a full stack job search web application. It has authentication and authorization built in place using JWT tokens and some of the routes are protected with an authentication middleware.
+                  </p>
+                  <p>
+                    The backend includes a classic RESTful API setup for storing and providing information on companies, jobs, and users, so the same information can be accessed using a tool like Insomnia.
+                  </p>
+                  <p class="mb-4">
+                    Tech stack used on this project consists of React on the frontend, Node and Express on the backend, and PostgreSQL for database design.
+                  </p>
+                  <p class="font-weight-bold">
+                    The main focus of this project was building a single page React app using React Hooks, with a fully functioning backend.
+                  </p>
+                </div>
+                <div class="mb-4">
+                  <a target="_blank" class="cta-btn cta-btn--hero" href="https://harmonious-turkey.surge.sh/">
+                    See Live
+                  </a>
+                </div>
+                <div>
+                  <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/alexgenc/jobly-frontend">
+                    GH Front End
+                  </a>
+                  <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/alexgenc/jobly-backend">
+                    GH Back End
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://harmonious-turkey.surge.sh/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/jobly.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Netflix-Clone</h3>
+                <div>
+                  <p class="mb-4">
+                    Netflix-Clone is a fully functional front-end clone of Netflix web application, a widely popular paid streaming service.
+                  </p>
+                  <p>
+                    Instead of creating a backend, Firebase Authentication was used for both user authentication and authorization. Similarly, Firebase Cloud Storage was used to solve database needs. This choice was made to get experience with different technologies.
+                  </p>
+                  <p class="mb-4">
+                    The application also has fuzzy searching functionality using Fuse.js, for live searching and filtering movies and TV shows. 
+                  </p>
+                  <p class="font-weight-bold">
+                    The main focus of this project was building a React clone of Netflix while utilizing compound component pattern for component design, CSS framework Styled-Components for styling the application, and custom hooks for reusing stateful logic.
+                  </p>
+                </div>
+                <div class="mb-4">
+                  <a target="_blank" class="cta-btn cta-btn--hero" href="https://condemned-experience.surge.sh/">
+                    See Live
+                  </a>
+                  <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/alexgenc/netflix-clone">
+                    GitHub Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://condemned-experience.surge.sh" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Netflix.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Blogly</h3>
+                <div>
+                  <p class="mb-4">
+                    Blogly is a simple but slick looking, full stack, blogging web application. The app supports typical blogging functionalities like creating new blog posts, editing or removing existing blog posts, commenting on blog posts, upvoting and downvoting, and more.
+                  </p>
+                  <p class="mb-4">
+                    Blogly was built using React on the frontend, Redux and Redux-Thunk for state management, Node and Express on the backend, and postgreSQL for database design.
+                  </p>
+                  <p class="font-weight-bold">The main focus of this project was getting more experience with React Hooks by building another React app, but also using Redux and Redux-Thunk for state management instead of using useState or props drilling.</p>
+                </div>
+                <div class="mb-4">
+                  <a target="_blank" class="cta-btn cta-btn--hero" href="https://phobic-soda.surge.sh/">
+                    See Live
+                  </a>
+                </div>
+                <div>
+                  <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/alexgenc/blogly-frontend">
+                    GH Front End
+                  </a>
+                  <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/alexgenc/blogly-backend">
+                    GH Back End
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://phobic-soda.surge.sh/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/blogly.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Warbler</h3>
+                <div>
+                  <p class="mb-4">
+                    Warbler is a simplified Twitter clone with functionalities such as creating, updating, and deleting tweets, following and unfollowing users, favoriting and unfavoriting tweets, updating user information and profile settings, and more. 
+                    Main Technologies: Python, Flask, Ajax, SQLAlchemy, AJAX, HTML5, CSS.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://alexgenc-warbler.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/alexgenc/warbler">
+                  GitHub Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://alexgenc-warbler.herokuapp.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/warbler.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Healthy Living</h3>
+                <div>
+                  <p class="mb-4">
+                    Healthy Living is a full stack web application that allows users to create accounts, login, search for meals and workout exercises, view information on various different meals and exercises, add meals and exercises to their favorites, comment on meals and exercises, and more! Main Technologies: Python, Flask, Ajax, SQLAlchemy, AJAX, HTML5, CSS.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://alexgenc-healthyliving.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/alexgenc/healthy-living">
+                  GitHub Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://alexgenc-healthyliving.herokuapp.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/healthy-living.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Hack or Snooze</h3>
+                <div>
+                  <p class="mb-4">
+                    Hack or Snooze is a news-aggregator site based loosely on the widely popular Hacker News website.  It allows users to create accounts, log in, create, edit, and remove articles, mark articles as favorites, and more!
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://alexgenc.github.io/hack-or-snooze/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/alexgenc/hack-or-snooze">
+                  GitHub Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://alexgenc.github.io/hack-or-snooze/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/hack-or-snooze.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Like What You See?</p>
+          <a target="_blank" class="cta-btn cta-btn--resume" href="./assets/resume.pdf">
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/alexgenc/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/alexgenc" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- If you give me some credit, will be huge for me :) -->
+        <p class="footer__text">
+          © 2021 -
+          <a href="https://github.com/alexgenc" target="_blank"
+            >Alex Genc</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
